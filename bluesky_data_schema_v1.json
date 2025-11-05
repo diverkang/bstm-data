@@ -1,0 +1,129 @@
+{
+  "_meta": {
+    "name": "BlueSky Trip Matcher Data Schema v1",
+    "version": "1.0.0",
+    "updated": "2025-11-05"
+  },
+  "continent": "Asia | Europe | Middle East & Africa | North America | Central America | South America | Oceania",
+  "country": {
+    "_ko": "Korean country name (optional)"
+  },
+  "city": {
+    "ko": "Korean city name (optional)",
+    "geo": {
+      "lat": "float",
+      "lng": "float"
+    },
+    "basePopularity": "0.0~1.0",
+    "tags": [
+      "신혼",
+      "배낭",
+      "가족",
+      "효도",
+      "황혼",
+      "싱글",
+      "럭셔리",
+      "힐링",
+      "액티브",
+      "사진",
+      "미식"
+    ],
+    "themeWeights": {
+      "힐링": "0~1",
+      "사진": "0~1",
+      "미식": "0~1"
+    },
+    "costIndex": {
+      "hotel": "0.6~1.6",
+      "food": "0.6~1.6",
+      "transport": "0.6~1.6"
+    },
+    "tier": "low|mid|high|lux",
+    "bestMonths": [
+      1,
+      2,
+      3
+    ],
+    "avoidMonths": [
+      7,
+      8
+    ],
+    "seasons": [
+      "spring",
+      "summer",
+      "fall",
+      "winter"
+    ],
+    "monthMultipliers": {
+      "1": 1.0
+    },
+    "durationHint": {
+      "minNights": 2,
+      "maxNights": 6
+    },
+    "mustSee": [
+      "A",
+      "B"
+    ],
+    "mustEat": [
+      "A",
+      "B"
+    ],
+    "highlightPlan": {
+      "halfDay": [
+        "A",
+        "B",
+        "C"
+      ],
+      "oneDay": [
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    "photoSpots": [
+      "A",
+      "B"
+    ],
+    "seasonTips": [
+      "tip"
+    ],
+    "lodgingZones": [
+      {
+        "name": "Downtown",
+        "level": "$$$",
+        "note": "Best access"
+      }
+    ],
+    "safetyIndex": 0.0,
+    "walkability": 0.0,
+    "publicTransit": 0.0,
+    "visaNote": "KR passport quick note",
+    "electricity": {
+      "voltage": 230,
+      "plug": "Type C/E/F/G/I"
+    },
+    "languageTips": "Short language note",
+    "currency": {
+      "code": "USD",
+      "symbol": "$"
+    },
+    "priceSamples": {
+      "hotelNightUSD": 120,
+      "coffeeUSD": 3.5,
+      "mealUSD": 12,
+      "transportUSD": 2.5
+    },
+    "keywords": {
+      "see": [
+        "museum"
+      ],
+      "eat": [
+        "noodles"
+      ],
+      "do": [
+        "boat tour"
+      ]
+    }
+  }
+}
