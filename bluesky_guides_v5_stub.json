@@ -1,0 +1,762 @@
+{
+  "_meta": {
+    "version": "v5-stub",
+    "compat": "v4_full+patch_compatible"
+  },
+  "Asia": {
+    "Japan": {
+      "Tokyo": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Osaka": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Kyoto": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Thailand": {
+      "Bangkok": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Chiang Mai": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Phuket": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Vietnam": {
+      "Hanoi": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Da Nang": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Ho Chi Minh City": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Singapore": {
+      "Singapore": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Malaysia": {
+      "Kuala Lumpur": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Penang": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Kota Kinabalu": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Indonesia": {
+      "Bali": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Jakarta": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Yogyakarta": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Philippines": {
+      "Manila": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Cebu": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Boracay": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "China": {
+      "Shanghai": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Beijing": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Guangzhou": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Hong Kong": {
+      "Hong Kong": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Taiwan": {
+      "Taipei": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Kaohsiung": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Taichung": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "UAE": {
+      "Dubai": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Abu Dhabi": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Turkey": {
+      "Istanbul": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Cappadocia": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Qatar": {
+      "Doha": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Saudi Arabia": {
+      "Riyadh": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Jeddah": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "India": {
+      "Delhi": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Jaipur": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Goa": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Nepal": {
+      "Kathmandu": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Sri Lanka": {
+      "Colombo": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Cambodia": {
+      "Siem Reap": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Laos": {
+      "Luang Prabang": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    }
+  },
+  "Europe": {
+    "France": {
+      "Paris": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Nice": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Italy": {
+      "Rome": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Milan": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Venice": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Spain": {
+      "Barcelona": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Madrid": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Seville": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Germany": {
+      "Berlin": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Munich": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Greece": {
+      "Athens": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Santorini": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Switzerland": {
+      "Zurich": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Lucerne": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Interlaken": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "United Kingdom": {
+      "London": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Edinburgh": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Netherlands": {
+      "Amsterdam": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Belgium": {
+      "Brussels": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Bruges": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Austria": {
+      "Vienna": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Salzburg": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Czech Republic": {
+      "Prague": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Portugal": {
+      "Lisbon": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Porto": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Hungary": {
+      "Budapest": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Poland": {
+      "Warsaw": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Krakow": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Sweden": {
+      "Stockholm": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Norway": {
+      "Oslo": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Denmark": {
+      "Copenhagen": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Finland": {
+      "Helsinki": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    }
+  },
+  "North America": {
+    "United States": {
+      "New York": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Los Angeles": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "San Francisco": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Las Vegas": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Canada": {
+      "Vancouver": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Toronto": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Montreal": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Mexico": {
+      "Cancun": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Mexico City": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Guadalajara": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    }
+  },
+  "South America": {
+    "Brazil": {
+      "Rio de Janeiro": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "São Paulo": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Argentina": {
+      "Buenos Aires": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Mendoza": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Peru": {
+      "Cusco": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Lima": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Chile": {
+      "Santiago": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Colombia": {
+      "Bogotá": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Cartagena": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    }
+  },
+  "Middle East & Africa": {
+    "Egypt": {
+      "Cairo": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Luxor": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Morocco": {
+      "Marrakech": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Fes": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Chefchaouen": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "South Africa": {
+      "Cape Town": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Johannesburg": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    }
+  },
+  "Oceania": {
+    "Australia": {
+      "Sydney": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Melbourne": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Gold Coast": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "New Zealand": {
+      "Auckland": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      },
+      "Queenstown": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    }
+  },
+  "Central America": {
+    "Costa Rica": {
+      "San José": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Panama": {
+      "Panama City": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    },
+    "Cuba": {
+      "Havana": {
+        "see": [],
+        "eat": [],
+        "do": [],
+        "tip": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+﻿continent,country,country_ko,city,city_ko
+Asia,Japan,일본,Tokyo,도쿄
+Asia,Japan,일본,Osaka,오사카
+Asia,Japan,일본,Kyoto,교토
+Asia,Thailand,태국,Bangkok,방콕
+Asia,Thailand,태국,Chiang Mai,치앙마이
+Asia,Thailand,태국,Phuket,푸켓
+Asia,Vietnam,베트남,Hanoi,하노이
+Asia,Vietnam,베트남,Da Nang,다낭
+Asia,Vietnam,베트남,Ho Chi Minh City,호치민
+Asia,Singapore,싱가포르,Singapore,싱가포르
+Asia,Malaysia,말레이시아,Kuala Lumpur,쿠알라룸푸르
+Asia,Malaysia,말레이시아,Penang,페낭
+Asia,Malaysia,말레이시아,Kota Kinabalu,코타키나발루
+Asia,Indonesia,인도네시아,Bali,발리(덴파사르)
+Asia,Indonesia,인도네시아,Jakarta,자카르타
+Asia,Indonesia,인도네시아,Yogyakarta,욕야카르타
+Asia,Philippines,필리핀,Manila,마닐라
+Asia,Philippines,필리핀,Cebu,세부
+Asia,Philippines,필리핀,Boracay,보라카이
+Asia,China,중국,Shanghai,상하이
+Asia,China,중국,Beijing,베이징
+Asia,China,중국,Guangzhou,광저우
+Asia,Hong Kong,홍콩,Hong Kong,홍콩
+Asia,Taiwan,대만,Taipei,타이베이
+Asia,Taiwan,대만,Kaohsiung,가오슝
+Asia,Taiwan,대만,Taichung,타이중
+Asia,UAE,아랍에미리트,Dubai,두바이
+Asia,UAE,아랍에미리트,Abu Dhabi,아부다비
+Asia,Turkey,튀르키예,Istanbul,이스탄불
+Asia,Turkey,튀르키예,Cappadocia,카파도키아
+Asia,Qatar,카타르,Doha,도하
+Asia,Saudi Arabia,사우디아라비아,Riyadh,리야드
+Asia,Saudi Arabia,사우디아라비아,Jeddah,제다
+Asia,India,인도,Delhi,델리
+Asia,India,인도,Jaipur,자이푸르
+Asia,India,인도,Goa,고아
+Asia,Nepal,네팔,Kathmandu,카트만두
+Asia,Sri Lanka,스리랑카,Colombo,콜롬보
+Asia,Cambodia,캄보디아,Siem Reap,씨엠립
+Asia,Laos,라오스,Luang Prabang,루앙프라방
+Europe,France,프랑스,Paris,파리
+Europe,France,프랑스,Nice,니스
+Europe,Italy,이탈리아,Rome,로마
+Europe,Italy,이탈리아,Milan,밀라노
+Europe,Italy,이탈리아,Venice,베네치아
+Europe,Spain,스페인,Barcelona,바르셀로나
+Europe,Spain,스페인,Madrid,마드리드
+Europe,Spain,스페인,Seville,세비야
+Europe,Germany,독일,Berlin,베를린
+Europe,Germany,독일,Munich,뮌헨
+Europe,Greece,그리스,Athens,아테네
+Europe,Greece,그리스,Santorini,산토리니
+Europe,Switzerland,스위스,Zurich,취리히
+Europe,Switzerland,스위스,Lucerne,루체른
+Europe,Switzerland,스위스,Interlaken,인터라켄
+Europe,United Kingdom,영국,London,런던
+Europe,United Kingdom,영국,Edinburgh,에든버러
+Europe,Netherlands,네덜란드,Amsterdam,암스테르담
+Europe,Belgium,벨기에,Brussels,브뤼셀
+Europe,Belgium,벨기에,Bruges,브뤼허/브뤼헤
+Europe,Austria,오스트리아,Vienna,빈
+Europe,Austria,오스트리아,Salzburg,잘츠부르크
+Europe,Czech Republic,체코,Prague,프라하
+Europe,Portugal,포르투갈,Lisbon,리스본
+Europe,Portugal,포르투갈,Porto,포르투
+Europe,Hungary,헝가리,Budapest,부다페스트
+Europe,Poland,폴란드,Warsaw,바르샤바
+Europe,Poland,폴란드,Krakow,크라쿠프
+Europe,Sweden,스웨덴,Stockholm,스톡홀름
+Europe,Norway,노르웨이,Oslo,오슬로
+Europe,Denmark,덴마크,Copenhagen,코펜하겐
+Europe,Finland,핀란드,Helsinki,헬싱키
+North America,United States,미국,New York,뉴욕
+North America,United States,미국,Los Angeles,LA
+North America,United States,미국,San Francisco,샌프란시스코
+North America,United States,미국,Las Vegas,라스베이거스
+North America,Canada,캐나다,Vancouver,밴쿠버
+North America,Canada,캐나다,Toronto,토론토
+North America,Canada,캐나다,Montreal,몬트리올
+North America,Mexico,멕시코,Cancun,칸쿤
+North America,Mexico,멕시코,Mexico City,멕시코시티
+North America,Mexico,멕시코,Guadalajara,과달라하라
+South America,Brazil,브라질,Rio de Janeiro,리우데자네이루
+South America,Brazil,브라질,São Paulo,상파울루
+South America,Argentina,아르헨티나,Buenos Aires,부에노스아이레스
+South America,Argentina,아르헨티나,Mendoza,멘도사
+South America,Peru,페루,Cusco,쿠스코
+South America,Peru,페루,Lima,리마
+South America,Chile,칠레,Santiago,산티아고
+South America,Colombia,콜롬비아,Bogotá,보고타
+South America,Colombia,콜롬비아,Cartagena,카르타헤나
+Middle East & Africa,Egypt,이집트,Cairo,카이로
+Middle East & Africa,Egypt,이집트,Luxor,룩소르
+Middle East & Africa,Morocco,모로코,Marrakech,마라케시
+Middle East & Africa,Morocco,모로코,Fes,페스
+Middle East & Africa,Morocco,모로코,Chefchaouen,쉐프샤우엔
+Middle East & Africa,South Africa,남아프리카공화국,Cape Town,케이프타운
+Middle East & Africa,South Africa,남아프리카공화국,Johannesburg,요하네스버그
+Oceania,Australia,호주,Sydney,시드니
+Oceania,Australia,호주,Melbourne,멜버른
+Oceania,Australia,호주,Gold Coast,골드코스트
+Oceania,New Zealand,뉴질랜드,Auckland,오클랜드
+Oceania,New Zealand,뉴질랜드,Queenstown,퀸스타운
+Central America,Costa Rica,코스타리카,San José,산호세
+Central America,Panama,파나마,Panama City,파나마시티
+Central America,Cuba,쿠바,Havana,아바나
