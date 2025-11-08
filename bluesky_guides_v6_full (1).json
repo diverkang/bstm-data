@@ -1,0 +1,248 @@
+{
+  "guides": {
+    "Asia": {
+      "South Korea": {
+        "Seoul": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Busan": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Jeju": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      },
+      "Japan": {
+        "Tokyo": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Kyoto": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Osaka": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      },
+      "Thailand": {
+        "Bangkok": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Phuket": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Chiang Mai": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      },
+      "Vietnam": {
+        "Hanoi": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Ho Chi Minh City": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Da Nang": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      }
+    },
+    "North America": {
+      "United States": {
+        "New York": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Los Angeles": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "San Francisco": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      }
+    },
+    "Europe": {
+      "United Kingdom": {
+        "London": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Edinburgh": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Manchester": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      },
+      "France": {
+        "Paris": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Nice": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Lyon": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      },
+      "Italy": {
+        "Rome": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Florence": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Venice": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      },
+      "Spain": {
+        "Barcelona": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Madrid": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Seville": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      }
+    },
+    "Middle East & Africa": {
+      "Turkey": {
+        "Istanbul": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Goreme": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Antalya": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      },
+      "UAE": {
+        "Dubai": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Abu Dhabi": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      }
+    },
+    "Oceania": {
+      "Australia": {
+        "Sydney": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Melbourne": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        },
+        "Brisbane": {
+          "see": [],
+          "eat": [],
+          "do": [],
+          "tip": ""
+        }
+      }
+    }
+  }
+}
