@@ -1,0 +1,151 @@
+Continent,Country,City,LocalName,Lat,Lng,Band,HotelUSD
+Asia,South Korea,Seoul,서울,37.5665,126.978,short,110
+Asia,South Korea,Busan,부산,35.1796,129.0756,short,115
+Asia,South Korea,Jeju,제주,33.4996,126.5312,short,120
+Asia,Japan,Tokyo,東京,35.6895,139.6917,short,110
+Asia,Japan,Osaka,大阪,34.6937,135.5023,short,115
+Asia,Japan,Kyoto,京都,35.0116,135.7681,short,120
+Asia,China,Beijing,北京,39.9042,116.4074,short,110
+Asia,China,Shanghai,上海,31.2304,121.4737,short,115
+Asia,China,Guangzhou,广州,23.1291,113.2644,short,120
+Asia,Taiwan,Taipei,台北,25.033,121.5654,short,110
+Asia,Taiwan,Taichung,台中,24.1477,120.6736,short,115
+Asia,Taiwan,Kaohsiung,高雄,22.6273,120.3014,short,120
+Asia,Hong Kong,Central,中環,22.2819,114.1586,short,110
+Asia,Hong Kong,Tsim Sha Tsui,尖沙咀,22.2973,114.1722,short,115
+Asia,Hong Kong,Mong Kok,旺角,22.3193,114.1694,short,120
+Asia,Thailand,Bangkok,กรุงเทพฯ,13.7563,100.5018,short,110
+Asia,Thailand,Chiang Mai,เชียงใหม่,18.7883,98.9853,short,115
+Asia,Thailand,Phuket,ภูเก็ต,7.8804,98.3923,short,120
+Asia,Vietnam,Hanoi,Hà Nội,21.0278,105.8342,short,110
+Asia,Vietnam,Ho Chi Minh City,TP. Hồ Chí Minh,10.8231,106.6297,short,115
+Asia,Vietnam,Da Nang,Đà Nẵng,16.0544,108.2022,short,120
+Asia,Malaysia,Kuala Lumpur,Kuala Lumpur,3.139,101.6869,short,110
+Asia,Malaysia,Penang,Pulau Pinang,5.4141,100.3288,short,115
+Asia,Malaysia,Kota Kinabalu,Kota Kinabalu,5.9804,116.0735,short,120
+Asia,Singapore,Singapore,Singapore,1.3521,103.8198,short,110
+Asia,Singapore,Marina Bay,Marina Bay,1.2834,103.8607,short,115
+Asia,Singapore,Sentosa,Sentosa,1.2494,103.8303,short,120
+Asia,Indonesia,Jakarta,Jakarta,-6.2088,106.8456,short,110
+Asia,Indonesia,Bali,Denpasar,-8.65,115.2167,short,115
+Asia,Indonesia,Yogyakarta,Yogyakarta,-7.7956,110.3695,short,120
+Asia,Philippines,Manila,Maynila,14.5995,120.9842,short,110
+Asia,Philippines,Cebu,Sugbo,10.3157,123.8854,short,115
+Asia,Philippines,Boracay,Boracay,11.9674,121.9248,short,120
+Asia,India,Delhi,दिल्ली,28.7041,77.1025,short,110
+Asia,India,Mumbai,मुंबई,19.076,72.8777,short,115
+Asia,India,Jaipur,जयपुर,26.9124,75.7873,short,120
+Asia,Nepal,Kathmandu,काठमाडौं,27.7172,85.324,short,110
+Asia,Nepal,Pokhara,पोखरा,28.2096,83.9856,short,115
+Asia,Nepal,Bhaktapur,भक्तपुर,27.671,85.4298,short,120
+Asia,Sri Lanka,Colombo,කොළඹ,6.9271,79.8612,short,110
+Asia,Sri Lanka,Kandy,මහනුවර,7.2906,80.6337,short,115
+Asia,Sri Lanka,Galle,ගාල්ල,6.0535,80.221,short,120
+Asia,United Arab Emirates,Dubai,دبي,25.2048,55.2708,long,110
+Asia,United Arab Emirates,Abu Dhabi,أبوظبي,24.4539,54.3773,long,115
+Asia,United Arab Emirates,Sharjah,الشارقة,25.3463,55.4209,long,120
+Asia,Saudi Arabia,Riyadh,الرياض,24.7136,46.6753,long,110
+Asia,Saudi Arabia,Jeddah,جدة,21.4858,39.1925,long,115
+Asia,Saudi Arabia,AlUla,العلا,26.6167,37.9167,long,120
+Asia,Qatar,Doha,الدوحة,25.2854,51.531,long,110
+Asia,Qatar,The Pearl,اللؤلؤة,25.37,51.558,long,115
+Asia,Qatar,Al Wakrah,الوكرة,25.1652,51.6034,long,120
+Asia,Israel,Jerusalem,ירושלים‎,31.7683,35.2137,long,110
+Asia,Israel,Tel Aviv,תל אביב,32.0853,34.7818,long,115
+Asia,Israel,Haifa,חיפה,32.794,34.9896,long,120
+Asia,Turkey,Istanbul,İstanbul,41.0082,28.9784,long,110
+Asia,Turkey,Cappadocia,Kapadokya,38.6431,34.827,long,115
+Asia,Turkey,Antalya,Antalya,36.8969,30.7133,long,120
+Europe,United Kingdom,London,London,51.5074,-0.1278,long,180
+Europe,United Kingdom,Edinburgh,Edinburgh,55.9533,-3.1883,long,190
+Europe,United Kingdom,Manchester,Manchester,53.4808,-2.2426,long,200
+Europe,France,Paris,Paris,48.8566,2.3522,long,180
+Europe,France,Nice,Nice,43.7102,7.262,long,190
+Europe,France,Lyon,Lyon,45.764,4.8357,long,200
+Europe,Germany,Berlin,Berlin,52.52,13.405,long,180
+Europe,Germany,Munich,München,48.1351,11.582,long,190
+Europe,Germany,Hamburg,Hamburg,53.5511,9.9937,long,200
+Europe,Italy,Rome,Roma,41.9028,12.4964,long,180
+Europe,Italy,Milan,Milano,45.4642,9.19,long,190
+Europe,Italy,Venice,Venezia,45.4408,12.3155,long,200
+Europe,Spain,Barcelona,Barcelona,41.3851,2.1734,long,180
+Europe,Spain,Madrid,Madrid,40.4168,-3.7038,long,190
+Europe,Spain,Seville,Sevilla,37.3891,-5.9845,long,200
+Europe,Portugal,Lisbon,Lisboa,38.7223,-9.1393,long,180
+Europe,Portugal,Porto,Porto,41.1579,-8.6291,long,190
+Europe,Portugal,Faro,Faro,37.0194,-7.9304,long,200
+Europe,Netherlands,Amsterdam,Amsterdam,52.3676,4.9041,long,180
+Europe,Netherlands,Rotterdam,Rotterdam,51.9244,4.4777,long,190
+Europe,Netherlands,Utrecht,Utrecht,52.0907,5.1214,long,200
+Europe,Belgium,Brussels,Bruxelles,50.8503,4.3517,long,180
+Europe,Belgium,Bruges,Brugge,51.2093,3.2247,long,190
+Europe,Belgium,Antwerp,Antwerpen,51.2194,4.4025,long,200
+Europe,Switzerland,Zurich,Zürich,47.3769,8.5417,long,180
+Europe,Switzerland,Lucerne,Luzern,47.0502,8.3093,long,190
+Europe,Switzerland,Geneva,Genève,46.2044,6.1432,long,200
+Europe,Austria,Vienna,Wien,48.2082,16.3738,long,180
+Europe,Austria,Salzburg,Salzburg,47.8095,13.055,long,190
+Europe,Austria,Innsbruck,Innsbruck,47.2692,11.4041,long,200
+Europe,Czechia,Prague,Praha,50.0755,14.4378,long,180
+Europe,Czechia,Český Krumlov,Český Krumlov,48.8115,14.3152,long,190
+Europe,Czechia,Brno,Brno,49.1951,16.6068,long,200
+Europe,Poland,Krakow,Kraków,50.0647,19.945,long,180
+Europe,Poland,Warsaw,Warszawa,52.2297,21.0122,long,190
+Europe,Poland,Gdansk,Gdańsk,54.352,18.6466,long,200
+Europe,Hungary,Budapest,Budapest,47.4979,19.0402,long,180
+Europe,Hungary,Eger,Eger,47.9025,20.3772,long,190
+Europe,Hungary,Szeged,Szeged,46.253,20.1414,long,200
+Europe,Greece,Mykonos,Μύκονος,37.4467,25.3289,long,180
+Europe,Greece,Athens,Αθήνα,37.9838,23.7275,long,190
+Europe,Greece,Santorini,Σαντορίνη,36.3932,25.4615,long,200
+Europe,Sweden,Stockholm,Stockholm,59.3293,18.0686,long,180
+Europe,Sweden,Gothenburg,Göteborg,57.7089,11.9746,long,190
+Europe,Sweden,Malmö,Malmö,55.604981,13.003822,long,200
+Europe,Norway,Oslo,Oslo,59.9139,10.7522,long,180
+Europe,Norway,Bergen,Bergen,60.3913,5.3221,long,190
+Europe,Norway,Tromsø,Tromsø,69.6492,18.9553,long,200
+Europe,Denmark,Copenhagen,København,55.6761,12.5683,long,180
+Europe,Denmark,Aarhus,Aarhus,56.1629,10.2039,long,190
+Europe,Denmark,Odense,Odense,55.4038,10.4024,long,200
+North America,United States,New York,New York,40.7128,-74.006,ultra,170
+North America,United States,Los Angeles,Los Angeles,34.0522,-118.2437,ultra,180
+North America,United States,San Francisco,San Francisco,37.7749,-122.4194,ultra,190
+North America,Canada,Toronto,Toronto,43.6532,-79.3832,ultra,170
+North America,Canada,Vancouver,Vancouver,49.2827,-123.1207,ultra,180
+North America,Canada,Montreal,Montréal,45.5017,-73.5673,ultra,190
+North America,Mexico,Mexico City,Ciudad de México,19.4326,-99.1332,ultra,170
+North America,Mexico,Cancun,Cancún,21.1619,-86.8515,ultra,180
+North America,Mexico,Guadalajara,Guadalajara,20.6597,-103.3496,ultra,190
+South America,Brazil,Rio de Janeiro,Rio de Janeiro,-22.9068,-43.1729,ultra,120
+South America,Brazil,São Paulo,São Paulo,-23.5505,-46.6333,ultra,125
+South America,Brazil,Salvador,Salvador,-12.9777,-38.5016,ultra,130
+South America,Argentina,Buenos Aires,Buenos Aires,-34.6037,-58.3816,ultra,120
+South America,Argentina,Mendoza,Mendoza,-32.8895,-68.8458,ultra,125
+South America,Argentina,Bariloche,Bariloche,-41.1335,-71.3103,ultra,130
+South America,Chile,Santiago,Santiago,-33.4489,-70.6693,ultra,120
+South America,Chile,Valparaiso,Valparaíso,-33.0472,-71.6127,ultra,125
+South America,Chile,Atacama,San Pedro,-22.9087,-68.1997,ultra,130
+South America,Peru,Lima,Lima,-12.0464,-77.0428,ultra,120
+South America,Peru,Cusco,Cusco,-13.5319,-71.9675,ultra,125
+South America,Peru,Arequipa,Arequipa,-16.409,-71.5375,ultra,130
+South America,Colombia,Bogota,Bogotá,4.711,-74.0721,ultra,120
+South America,Colombia,Medellin,Medellín,6.2442,-75.5812,ultra,125
+South America,Colombia,Cartagena,Cartagena de Indias,10.391,-75.4794,ultra,130
+Africa,South Africa,Cape Town,Cape Town,-33.9249,18.4241,long,110
+Africa,South Africa,Johannesburg,Johannesburg,-26.2041,28.0473,long,115
+Africa,South Africa,Durban,Durban,-29.8587,31.0218,long,120
+Africa,Morocco,Marrakesh,Marrakech,31.6295,-7.9811,long,110
+Africa,Morocco,Fes,Fès,34.0181,-5.0078,long,115
+Africa,Morocco,Chefchaouen,Chefchaouen,35.1686,-5.2636,long,120
+Africa,Egypt,Cairo,القاهرة,30.0444,31.2357,long,110
+Africa,Egypt,Giza,الجيزة,29.9773,31.1325,long,115
+Africa,Egypt,Luxor,الأقصر,25.6872,32.6396,long,120
+Africa,Kenya,Nairobi,Nairobi,-1.2921,36.8219,long,110
+Africa,Kenya,Mombasa,Mombasa,-4.0435,39.6682,long,115
+Africa,Kenya,Naivasha,Naivasha,-0.7167,36.4333,long,120
+Africa,Tanzania,Zanzibar,Zanzibar,-6.1659,39.2026,long,110
+Africa,Tanzania,Arusha,Arusha,-3.3869,36.682,long,115
+Africa,Tanzania,Dar es Salaam,Dar es Salaam,-6.7924,39.2083,long,120
+Oceania,Australia,Sydney,Sydney,-33.8688,151.2093,ultra,190
+Oceania,Australia,Melbourne,Melbourne,-37.8136,144.9631,ultra,200
+Oceania,Australia,Gold Coast,Gold Coast,-28.0167,153.4,ultra,210

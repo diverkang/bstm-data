@@ -1,18 +1,357 @@
 {
   "_meta": {
-    "version": "v6_full",
-    "type": "Top50 patch"
+    "version": "v6-top50"
   },
-  "Tokyo": {
-    "override": {
-      "hotel_median_usd": 160,
-      "flightBandKR": "mid"
+  "featured": [
+    {
+      "country": "South Korea",
+      "city": "Seoul",
+      "lat": 37.5665,
+      "lng": 126.978,
+      "tag": "prime"
+    },
+    {
+      "country": "Japan",
+      "city": "Tokyo",
+      "lat": 35.6895,
+      "lng": 139.6917,
+      "tag": "prime"
+    },
+    {
+      "country": "China",
+      "city": "Beijing",
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "tag": "prime"
+    },
+    {
+      "country": "Taiwan",
+      "city": "Taipei",
+      "lat": 25.033,
+      "lng": 121.5654,
+      "tag": "prime"
+    },
+    {
+      "country": "Hong Kong",
+      "city": "Central",
+      "lat": 22.2819,
+      "lng": 114.1586,
+      "tag": "prime"
+    },
+    {
+      "country": "Thailand",
+      "city": "Bangkok",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "tag": "prime"
+    },
+    {
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "lat": 21.0278,
+      "lng": 105.8342,
+      "tag": "prime"
+    },
+    {
+      "country": "Malaysia",
+      "city": "Kuala Lumpur",
+      "lat": 3.139,
+      "lng": 101.6869,
+      "tag": "prime"
+    },
+    {
+      "country": "Singapore",
+      "city": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "tag": "prime"
+    },
+    {
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "tag": "prime"
+    },
+    {
+      "country": "Philippines",
+      "city": "Manila",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "tag": "prime"
+    },
+    {
+      "country": "India",
+      "city": "Delhi",
+      "lat": 28.7041,
+      "lng": 77.1025,
+      "tag": "prime"
+    },
+    {
+      "country": "Nepal",
+      "city": "Kathmandu",
+      "lat": 27.7172,
+      "lng": 85.324,
+      "tag": "prime"
+    },
+    {
+      "country": "Sri Lanka",
+      "city": "Colombo",
+      "lat": 6.9271,
+      "lng": 79.8612,
+      "tag": "prime"
+    },
+    {
+      "country": "United Arab Emirates",
+      "city": "Dubai",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "tag": "prime"
+    },
+    {
+      "country": "Saudi Arabia",
+      "city": "Riyadh",
+      "lat": 24.7136,
+      "lng": 46.6753,
+      "tag": "prime"
+    },
+    {
+      "country": "Qatar",
+      "city": "Doha",
+      "lat": 25.2854,
+      "lng": 51.531,
+      "tag": "prime"
+    },
+    {
+      "country": "Israel",
+      "city": "Jerusalem",
+      "lat": 31.7683,
+      "lng": 35.2137,
+      "tag": "prime"
+    },
+    {
+      "country": "Turkey",
+      "city": "Istanbul",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "tag": "prime"
+    },
+    {
+      "country": "United Kingdom",
+      "city": "London",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "tag": "prime"
+    },
+    {
+      "country": "France",
+      "city": "Paris",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "tag": "prime"
+    },
+    {
+      "country": "Germany",
+      "city": "Berlin",
+      "lat": 52.52,
+      "lng": 13.405,
+      "tag": "prime"
+    },
+    {
+      "country": "Italy",
+      "city": "Rome",
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "tag": "prime"
+    },
+    {
+      "country": "Spain",
+      "city": "Barcelona",
+      "lat": 41.3851,
+      "lng": 2.1734,
+      "tag": "prime"
+    },
+    {
+      "country": "Portugal",
+      "city": "Lisbon",
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "tag": "prime"
+    },
+    {
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "tag": "prime"
+    },
+    {
+      "country": "Belgium",
+      "city": "Brussels",
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "tag": "prime"
+    },
+    {
+      "country": "Switzerland",
+      "city": "Zurich",
+      "lat": 47.3769,
+      "lng": 8.5417,
+      "tag": "prime"
+    },
+    {
+      "country": "Austria",
+      "city": "Vienna",
+      "lat": 48.2082,
+      "lng": 16.3738,
+      "tag": "prime"
+    },
+    {
+      "country": "Czechia",
+      "city": "Prague",
+      "lat": 50.0755,
+      "lng": 14.4378,
+      "tag": "prime"
+    },
+    {
+      "country": "Poland",
+      "city": "Krakow",
+      "lat": 50.0647,
+      "lng": 19.945,
+      "tag": "prime"
+    },
+    {
+      "country": "Hungary",
+      "city": "Budapest",
+      "lat": 47.4979,
+      "lng": 19.0402,
+      "tag": "prime"
+    },
+    {
+      "country": "Greece",
+      "city": "Mykonos",
+      "lat": 37.4467,
+      "lng": 25.3289,
+      "tag": "prime"
+    },
+    {
+      "country": "Sweden",
+      "city": "Stockholm",
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "tag": "prime"
+    },
+    {
+      "country": "Norway",
+      "city": "Oslo",
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "tag": "prime"
+    },
+    {
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "lat": 55.6761,
+      "lng": 12.5683,
+      "tag": "prime"
+    },
+    {
+      "country": "United States",
+      "city": "New York",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "tag": "prime"
+    },
+    {
+      "country": "Canada",
+      "city": "Toronto",
+      "lat": 43.6532,
+      "lng": -79.3832,
+      "tag": "prime"
+    },
+    {
+      "country": "Mexico",
+      "city": "Mexico City",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "tag": "prime"
+    },
+    {
+      "country": "Brazil",
+      "city": "Rio de Janeiro",
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "tag": "prime"
+    },
+    {
+      "country": "Argentina",
+      "city": "Buenos Aires",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "tag": "prime"
+    },
+    {
+      "country": "Chile",
+      "city": "Santiago",
+      "lat": -33.4489,
+      "lng": -70.6693,
+      "tag": "prime"
+    },
+    {
+      "country": "Peru",
+      "city": "Lima",
+      "lat": -12.0464,
+      "lng": -77.0428,
+      "tag": "prime"
+    },
+    {
+      "country": "Colombia",
+      "city": "Bogota",
+      "lat": 4.711,
+      "lng": -74.0721,
+      "tag": "prime"
+    },
+    {
+      "country": "South Africa",
+      "city": "Cape Town",
+      "lat": -33.9249,
+      "lng": 18.4241,
+      "tag": "prime"
+    },
+    {
+      "country": "Morocco",
+      "city": "Marrakesh",
+      "lat": 31.6295,
+      "lng": -7.9811,
+      "tag": "prime"
+    },
+    {
+      "country": "Egypt",
+      "city": "Cairo",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "tag": "prime"
+    },
+    {
+      "country": "Kenya",
+      "city": "Nairobi",
+      "lat": -1.2921,
+      "lng": 36.8219,
+      "tag": "prime"
+    },
+    {
+      "country": "Tanzania",
+      "city": "Zanzibar",
+      "lat": -6.1659,
+      "lng": 39.2026,
+      "tag": "prime"
+    },
+    {
+      "country": "Australia",
+      "city": "Sydney",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "tag": "prime"
     }
-  },
-  "Seoul": {
-    "override": {
-      "hotel_median_usd": 115,
-      "flightBandKR": "short"
-    }
-  }
+  ]
 }

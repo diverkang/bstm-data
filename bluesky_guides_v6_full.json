@@ -1,42 +1,905 @@
 {
-  "Japan": {
-    "See": [
-      "도쿄타워",
-      "후지산",
-      "오사카성"
-    ],
-    "Eat": [
-      "스시",
-      "라멘",
-      "오코노미야키"
-    ],
-    "Do": [
-      "온천 체험",
-      "쇼핑",
-      "디즈니랜드 방문"
-    ],
-    "Tip": [
-      "JR패스로 이동비 절감 가능"
-    ]
+  "_meta": {
+    "version": "v6-full-guides"
   },
-  "South Korea": {
-    "See": [
-      "경복궁",
-      "부산 해운대",
-      "제주 오름"
-    ],
-    "Eat": [
-      "불고기",
-      "김치찌개",
-      "비빔밥"
-    ],
-    "Do": [
-      "찜질방",
-      "한강 피크닉",
-      "남대문 쇼핑"
-    ],
-    "Tip": [
-      "대중교통이 편리하고 교통카드 T-money 사용 가능"
-    ]
+  "South Korea:Seoul": {
+    "see": "Stroll Seoul's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "K-BBQ, tteokbokki, and hip dessert cafés trend well; many places are open late.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Seoul's transit apps for smoother moves."
+  },
+  "South Korea:Busan": {
+    "see": "Stroll Busan's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "K-BBQ, tteokbokki, and hip dessert cafés trend well; many places are open late.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Busan's transit apps for smoother moves."
+  },
+  "South Korea:Jeju": {
+    "see": "Stroll Jeju's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "K-BBQ, tteokbokki, and hip dessert cafés trend well; many places are open late.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Jeju's transit apps for smoother moves."
+  },
+  "Japan:Tokyo": {
+    "see": "Stroll Tokyo's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Ramen, sushi, and convenience-store snacks are must-tries; reserve tiny sushi bars early.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Tokyo's transit apps for smoother moves."
+  },
+  "Japan:Osaka": {
+    "see": "Stroll Osaka's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Ramen, sushi, and convenience-store snacks are must-tries; reserve tiny sushi bars early.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Osaka's transit apps for smoother moves."
+  },
+  "Japan:Kyoto": {
+    "see": "Stroll Kyoto's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Ramen, sushi, and convenience-store snacks are must-tries; reserve tiny sushi bars early.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Kyoto's transit apps for smoother moves."
+  },
+  "China:Beijing": {
+    "see": "Stroll Beijing's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Beijing — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Beijing's transit apps for smoother moves."
+  },
+  "China:Shanghai": {
+    "see": "Stroll Shanghai's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Shanghai — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Shanghai's transit apps for smoother moves."
+  },
+  "China:Guangzhou": {
+    "see": "Stroll Guangzhou's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Guangzhou — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Guangzhou's transit apps for smoother moves."
+  },
+  "Taiwan:Taipei": {
+    "see": "Stroll Taipei's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Taipei — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Taipei's transit apps for smoother moves."
+  },
+  "Taiwan:Taichung": {
+    "see": "Stroll Taichung's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Taichung — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Taichung's transit apps for smoother moves."
+  },
+  "Taiwan:Kaohsiung": {
+    "see": "Stroll Kaohsiung's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Kaohsiung — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Kaohsiung's transit apps for smoother moves."
+  },
+  "Hong Kong:Central": {
+    "see": "Stroll Central's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Central — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Central's transit apps for smoother moves."
+  },
+  "Hong Kong:Tsim Sha Tsui": {
+    "see": "Stroll Tsim Sha Tsui's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Tsim Sha Tsui — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Tsim Sha Tsui's transit apps for smoother moves."
+  },
+  "Hong Kong:Mong Kok": {
+    "see": "Stroll Mong Kok's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Mong Kok — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Mong Kok's transit apps for smoother moves."
+  },
+  "Thailand:Bangkok": {
+    "see": "Stroll Bangkok's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Street pad thai, tom yum, and mango sticky rice shine; night markets are budget-friendly.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Bangkok's transit apps for smoother moves."
+  },
+  "Thailand:Chiang Mai": {
+    "see": "Stroll Chiang Mai's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Street pad thai, tom yum, and mango sticky rice shine; night markets are budget-friendly.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Chiang Mai's transit apps for smoother moves."
+  },
+  "Thailand:Phuket": {
+    "see": "Stroll Phuket's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Street pad thai, tom yum, and mango sticky rice shine; night markets are budget-friendly.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Phuket's transit apps for smoother moves."
+  },
+  "Vietnam:Hanoi": {
+    "see": "Stroll Hanoi's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Pho, banh mi, and coffee with condensed milk; street corners hide the best stools.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Hanoi's transit apps for smoother moves."
+  },
+  "Vietnam:Ho Chi Minh City": {
+    "see": "Stroll Ho Chi Minh City's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Pho, banh mi, and coffee with condensed milk; street corners hide the best stools.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Ho Chi Minh City's transit apps for smoother moves."
+  },
+  "Vietnam:Da Nang": {
+    "see": "Stroll Da Nang's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Pho, banh mi, and coffee with condensed milk; street corners hide the best stools.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Da Nang's transit apps for smoother moves."
+  },
+  "Malaysia:Kuala Lumpur": {
+    "see": "Stroll Kuala Lumpur's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Kuala Lumpur — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Kuala Lumpur's transit apps for smoother moves."
+  },
+  "Malaysia:Penang": {
+    "see": "Stroll Penang's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Penang — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Penang's transit apps for smoother moves."
+  },
+  "Malaysia:Kota Kinabalu": {
+    "see": "Stroll Kota Kinabalu's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Kota Kinabalu — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Kota Kinabalu's transit apps for smoother moves."
+  },
+  "Singapore:Singapore": {
+    "see": "Stroll Singapore's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Singapore — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Singapore's transit apps for smoother moves."
+  },
+  "Singapore:Marina Bay": {
+    "see": "Stroll Marina Bay's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Marina Bay — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Marina Bay's transit apps for smoother moves."
+  },
+  "Singapore:Sentosa": {
+    "see": "Stroll Sentosa's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Sentosa — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Sentosa's transit apps for smoother moves."
+  },
+  "Indonesia:Jakarta": {
+    "see": "Stroll Jakarta's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Jakarta — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Jakarta's transit apps for smoother moves."
+  },
+  "Indonesia:Bali": {
+    "see": "Stroll Bali's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Bali — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Bali's transit apps for smoother moves."
+  },
+  "Indonesia:Yogyakarta": {
+    "see": "Stroll Yogyakarta's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Yogyakarta — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Yogyakarta's transit apps for smoother moves."
+  },
+  "Philippines:Manila": {
+    "see": "Stroll Manila's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Manila — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Manila's transit apps for smoother moves."
+  },
+  "Philippines:Cebu": {
+    "see": "Stroll Cebu's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Cebu — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Cebu's transit apps for smoother moves."
+  },
+  "Philippines:Boracay": {
+    "see": "Stroll Boracay's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Boracay — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Boracay's transit apps for smoother moves."
+  },
+  "India:Delhi": {
+    "see": "Stroll Delhi's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Thali, biryani, and chaat — balance spice levels; pick busy, clean vendors.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Delhi's transit apps for smoother moves."
+  },
+  "India:Mumbai": {
+    "see": "Stroll Mumbai's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Thali, biryani, and chaat — balance spice levels; pick busy, clean vendors.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Mumbai's transit apps for smoother moves."
+  },
+  "India:Jaipur": {
+    "see": "Stroll Jaipur's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Thali, biryani, and chaat — balance spice levels; pick busy, clean vendors.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Jaipur's transit apps for smoother moves."
+  },
+  "Nepal:Kathmandu": {
+    "see": "Stroll Kathmandu's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Kathmandu — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Kathmandu's transit apps for smoother moves."
+  },
+  "Nepal:Pokhara": {
+    "see": "Stroll Pokhara's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Pokhara — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Pokhara's transit apps for smoother moves."
+  },
+  "Nepal:Bhaktapur": {
+    "see": "Stroll Bhaktapur's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Bhaktapur — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Bhaktapur's transit apps for smoother moves."
+  },
+  "Sri Lanka:Colombo": {
+    "see": "Stroll Colombo's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Colombo — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Colombo's transit apps for smoother moves."
+  },
+  "Sri Lanka:Kandy": {
+    "see": "Stroll Kandy's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Kandy — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Kandy's transit apps for smoother moves."
+  },
+  "Sri Lanka:Galle": {
+    "see": "Stroll Galle's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Galle — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Galle's transit apps for smoother moves."
+  },
+  "United Arab Emirates:Dubai": {
+    "see": "Skyscraper views, desert dunes, and waterfront promenades blend modern and heritage scenes.",
+    "eat": "Try local favorites in Dubai — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Dubai's transit apps for smoother moves."
+  },
+  "United Arab Emirates:Abu Dhabi": {
+    "see": "Skyscraper views, desert dunes, and waterfront promenades blend modern and heritage scenes.",
+    "eat": "Try local favorites in Abu Dhabi — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Abu Dhabi's transit apps for smoother moves."
+  },
+  "United Arab Emirates:Sharjah": {
+    "see": "Skyscraper views, desert dunes, and waterfront promenades blend modern and heritage scenes.",
+    "eat": "Try local favorites in Sharjah — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Sharjah's transit apps for smoother moves."
+  },
+  "Saudi Arabia:Riyadh": {
+    "see": "Stroll Riyadh's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Riyadh — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Riyadh's transit apps for smoother moves."
+  },
+  "Saudi Arabia:Jeddah": {
+    "see": "Stroll Jeddah's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Jeddah — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Jeddah's transit apps for smoother moves."
+  },
+  "Saudi Arabia:AlUla": {
+    "see": "Stroll AlUla's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in AlUla — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use AlUla's transit apps for smoother moves."
+  },
+  "Qatar:Doha": {
+    "see": "Stroll Doha's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Doha — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Doha's transit apps for smoother moves."
+  },
+  "Qatar:The Pearl": {
+    "see": "Stroll The Pearl's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in The Pearl — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use The Pearl's transit apps for smoother moves."
+  },
+  "Qatar:Al Wakrah": {
+    "see": "Stroll Al Wakrah's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Al Wakrah — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Al Wakrah's transit apps for smoother moves."
+  },
+  "Israel:Jerusalem": {
+    "see": "Stroll Jerusalem's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Jerusalem — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Jerusalem's transit apps for smoother moves."
+  },
+  "Israel:Tel Aviv": {
+    "see": "Stroll Tel Aviv's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Tel Aviv — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Tel Aviv's transit apps for smoother moves."
+  },
+  "Israel:Haifa": {
+    "see": "Stroll Haifa's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Haifa — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Haifa's transit apps for smoother moves."
+  },
+  "Turkey:Istanbul": {
+    "see": "Stroll Istanbul's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Istanbul — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Istanbul's transit apps for smoother moves."
+  },
+  "Turkey:Cappadocia": {
+    "see": "Stroll Cappadocia's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Cappadocia — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Cappadocia's transit apps for smoother moves."
+  },
+  "Turkey:Antalya": {
+    "see": "Stroll Antalya's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Antalya — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Antalya's transit apps for smoother moves."
+  },
+  "United Kingdom:London": {
+    "see": "Stroll London's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in London — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use London's transit apps for smoother moves."
+  },
+  "United Kingdom:Edinburgh": {
+    "see": "Stroll Edinburgh's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Edinburgh — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Edinburgh's transit apps for smoother moves."
+  },
+  "United Kingdom:Manchester": {
+    "see": "Stroll Manchester's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Manchester — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Manchester's transit apps for smoother moves."
+  },
+  "France:Paris": {
+    "see": "Stroll Paris's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Boulangeries for croissants, neighborhood bistros for steak frites; reserve dinner spots.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Paris's transit apps for smoother moves."
+  },
+  "France:Nice": {
+    "see": "Stroll Nice's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Boulangeries for croissants, neighborhood bistros for steak frites; reserve dinner spots.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Nice's transit apps for smoother moves."
+  },
+  "France:Lyon": {
+    "see": "Stroll Lyon's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Boulangeries for croissants, neighborhood bistros for steak frites; reserve dinner spots.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Lyon's transit apps for smoother moves."
+  },
+  "Germany:Berlin": {
+    "see": "Stroll Berlin's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Berlin — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Berlin's transit apps for smoother moves."
+  },
+  "Germany:Munich": {
+    "see": "Stroll Munich's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Munich — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Munich's transit apps for smoother moves."
+  },
+  "Germany:Hamburg": {
+    "see": "Stroll Hamburg's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Hamburg — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Hamburg's transit apps for smoother moves."
+  },
+  "Italy:Rome": {
+    "see": "Stroll Rome's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Pasta, pizza al taglio, and gelato — seek local bakeries for breakfast cornetti.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Rome's transit apps for smoother moves."
+  },
+  "Italy:Milan": {
+    "see": "Stroll Milan's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Pasta, pizza al taglio, and gelato — seek local bakeries for breakfast cornetti.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Milan's transit apps for smoother moves."
+  },
+  "Italy:Venice": {
+    "see": "Stroll Venice's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Pasta, pizza al taglio, and gelato — seek local bakeries for breakfast cornetti.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Venice's transit apps for smoother moves."
+  },
+  "Spain:Barcelona": {
+    "see": "Stroll Barcelona's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Barcelona — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Barcelona's transit apps for smoother moves."
+  },
+  "Spain:Madrid": {
+    "see": "Stroll Madrid's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Madrid — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Madrid's transit apps for smoother moves."
+  },
+  "Spain:Seville": {
+    "see": "Stroll Seville's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Seville — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Seville's transit apps for smoother moves."
+  },
+  "Portugal:Lisbon": {
+    "see": "Stroll Lisbon's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Lisbon — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Lisbon's transit apps for smoother moves."
+  },
+  "Portugal:Porto": {
+    "see": "Stroll Porto's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Porto — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Porto's transit apps for smoother moves."
+  },
+  "Portugal:Faro": {
+    "see": "Stroll Faro's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Faro — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Faro's transit apps for smoother moves."
+  },
+  "Netherlands:Amsterdam": {
+    "see": "Stroll Amsterdam's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Amsterdam — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Amsterdam's transit apps for smoother moves."
+  },
+  "Netherlands:Rotterdam": {
+    "see": "Stroll Rotterdam's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Rotterdam — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Rotterdam's transit apps for smoother moves."
+  },
+  "Netherlands:Utrecht": {
+    "see": "Stroll Utrecht's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Utrecht — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Utrecht's transit apps for smoother moves."
+  },
+  "Belgium:Brussels": {
+    "see": "Stroll Brussels's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Brussels — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Brussels's transit apps for smoother moves."
+  },
+  "Belgium:Bruges": {
+    "see": "Stroll Bruges's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Bruges — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Bruges's transit apps for smoother moves."
+  },
+  "Belgium:Antwerp": {
+    "see": "Stroll Antwerp's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Antwerp — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Antwerp's transit apps for smoother moves."
+  },
+  "Switzerland:Zurich": {
+    "see": "Stroll Zurich's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Zurich — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Zurich's transit apps for smoother moves."
+  },
+  "Switzerland:Lucerne": {
+    "see": "Stroll Lucerne's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Lucerne — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Lucerne's transit apps for smoother moves."
+  },
+  "Switzerland:Geneva": {
+    "see": "Stroll Geneva's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Geneva — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Geneva's transit apps for smoother moves."
+  },
+  "Austria:Vienna": {
+    "see": "Stroll Vienna's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Vienna — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Vienna's transit apps for smoother moves."
+  },
+  "Austria:Salzburg": {
+    "see": "Stroll Salzburg's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Salzburg — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Salzburg's transit apps for smoother moves."
+  },
+  "Austria:Innsbruck": {
+    "see": "Stroll Innsbruck's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Innsbruck — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Innsbruck's transit apps for smoother moves."
+  },
+  "Czechia:Prague": {
+    "see": "Stroll Prague's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Prague — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Prague's transit apps for smoother moves."
+  },
+  "Czechia:Český Krumlov": {
+    "see": "Stroll Český Krumlov's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Český Krumlov — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Český Krumlov's transit apps for smoother moves."
+  },
+  "Czechia:Brno": {
+    "see": "Stroll Brno's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Brno — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Brno's transit apps for smoother moves."
+  },
+  "Poland:Krakow": {
+    "see": "Stroll Krakow's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Krakow — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Krakow's transit apps for smoother moves."
+  },
+  "Poland:Warsaw": {
+    "see": "Stroll Warsaw's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Warsaw — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Warsaw's transit apps for smoother moves."
+  },
+  "Poland:Gdansk": {
+    "see": "Stroll Gdansk's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Gdansk — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Gdansk's transit apps for smoother moves."
+  },
+  "Hungary:Budapest": {
+    "see": "Stroll Budapest's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Budapest — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Budapest's transit apps for smoother moves."
+  },
+  "Hungary:Eger": {
+    "see": "Stroll Eger's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Eger — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Eger's transit apps for smoother moves."
+  },
+  "Hungary:Szeged": {
+    "see": "Stroll Szeged's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Szeged — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Szeged's transit apps for smoother moves."
+  },
+  "Greece:Mykonos": {
+    "see": "Stroll Mykonos's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Mykonos — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Mykonos's transit apps for smoother moves."
+  },
+  "Greece:Athens": {
+    "see": "Stroll Athens's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Athens — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Athens's transit apps for smoother moves."
+  },
+  "Greece:Santorini": {
+    "see": "Stroll Santorini's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Santorini — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Santorini's transit apps for smoother moves."
+  },
+  "Sweden:Stockholm": {
+    "see": "Stroll Stockholm's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Stockholm — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Stockholm's transit apps for smoother moves."
+  },
+  "Sweden:Gothenburg": {
+    "see": "Stroll Gothenburg's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Gothenburg — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Gothenburg's transit apps for smoother moves."
+  },
+  "Sweden:Malmö": {
+    "see": "Stroll Malmö's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Malmö — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Malmö's transit apps for smoother moves."
+  },
+  "Norway:Oslo": {
+    "see": "Stroll Oslo's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Oslo — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Oslo's transit apps for smoother moves."
+  },
+  "Norway:Bergen": {
+    "see": "Stroll Bergen's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Bergen — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Bergen's transit apps for smoother moves."
+  },
+  "Norway:Tromsø": {
+    "see": "Stroll Tromsø's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Tromsø — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Tromsø's transit apps for smoother moves."
+  },
+  "Denmark:Copenhagen": {
+    "see": "Stroll Copenhagen's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Copenhagen — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Copenhagen's transit apps for smoother moves."
+  },
+  "Denmark:Aarhus": {
+    "see": "Stroll Aarhus's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Aarhus — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Aarhus's transit apps for smoother moves."
+  },
+  "Denmark:Odense": {
+    "see": "Stroll Odense's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Odense — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Odense's transit apps for smoother moves."
+  },
+  "United States:New York": {
+    "see": "Stroll New York's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Regional bites (NY pizza, LA tacos, Southern BBQ); check food truck maps for pop-ups.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use New York's transit apps for smoother moves."
+  },
+  "United States:Los Angeles": {
+    "see": "Stroll Los Angeles's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Regional bites (NY pizza, LA tacos, Southern BBQ); check food truck maps for pop-ups.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Los Angeles's transit apps for smoother moves."
+  },
+  "United States:San Francisco": {
+    "see": "Stroll San Francisco's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Regional bites (NY pizza, LA tacos, Southern BBQ); check food truck maps for pop-ups.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use San Francisco's transit apps for smoother moves."
+  },
+  "Canada:Toronto": {
+    "see": "Stroll Toronto's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Toronto — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Toronto's transit apps for smoother moves."
+  },
+  "Canada:Vancouver": {
+    "see": "Stroll Vancouver's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Vancouver — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Vancouver's transit apps for smoother moves."
+  },
+  "Canada:Montreal": {
+    "see": "Stroll Montreal's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Montreal — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Montreal's transit apps for smoother moves."
+  },
+  "Mexico:Mexico City": {
+    "see": "Stroll Mexico City's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Tacos al pastor, chilaquiles, and fresh aguas; find late-night taquerías with locals.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Mexico City's transit apps for smoother moves."
+  },
+  "Mexico:Cancun": {
+    "see": "Stroll Cancun's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Tacos al pastor, chilaquiles, and fresh aguas; find late-night taquerías with locals.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Cancun's transit apps for smoother moves."
+  },
+  "Mexico:Guadalajara": {
+    "see": "Stroll Guadalajara's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Tacos al pastor, chilaquiles, and fresh aguas; find late-night taquerías with locals.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Guadalajara's transit apps for smoother moves."
+  },
+  "Brazil:Rio de Janeiro": {
+    "see": "Stroll Rio de Janeiro's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Rio de Janeiro — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Rio de Janeiro's transit apps for smoother moves."
+  },
+  "Brazil:São Paulo": {
+    "see": "Stroll São Paulo's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in São Paulo — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use São Paulo's transit apps for smoother moves."
+  },
+  "Brazil:Salvador": {
+    "see": "Stroll Salvador's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Salvador — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Salvador's transit apps for smoother moves."
+  },
+  "Argentina:Buenos Aires": {
+    "see": "Stroll Buenos Aires's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Buenos Aires — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Buenos Aires's transit apps for smoother moves."
+  },
+  "Argentina:Mendoza": {
+    "see": "Stroll Mendoza's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Mendoza — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Mendoza's transit apps for smoother moves."
+  },
+  "Argentina:Bariloche": {
+    "see": "Stroll Bariloche's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Bariloche — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Bariloche's transit apps for smoother moves."
+  },
+  "Chile:Santiago": {
+    "see": "Stroll Santiago's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Santiago — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Santiago's transit apps for smoother moves."
+  },
+  "Chile:Valparaiso": {
+    "see": "Stroll Valparaiso's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Valparaiso — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Valparaiso's transit apps for smoother moves."
+  },
+  "Chile:Atacama": {
+    "see": "Stroll Atacama's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Atacama — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Atacama's transit apps for smoother moves."
+  },
+  "Peru:Lima": {
+    "see": "Stroll Lima's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Lima — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Lima's transit apps for smoother moves."
+  },
+  "Peru:Cusco": {
+    "see": "Stroll Cusco's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Cusco — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Cusco's transit apps for smoother moves."
+  },
+  "Peru:Arequipa": {
+    "see": "Stroll Arequipa's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Arequipa — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Arequipa's transit apps for smoother moves."
+  },
+  "Colombia:Bogota": {
+    "see": "Stroll Bogota's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Bogota — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Bogota's transit apps for smoother moves."
+  },
+  "Colombia:Medellin": {
+    "see": "Stroll Medellin's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Medellin — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Medellin's transit apps for smoother moves."
+  },
+  "Colombia:Cartagena": {
+    "see": "Stroll Cartagena's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Cartagena — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Cartagena's transit apps for smoother moves."
+  },
+  "South Africa:Cape Town": {
+    "see": "Stroll Cape Town's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Cape Town — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Cape Town's transit apps for smoother moves."
+  },
+  "South Africa:Johannesburg": {
+    "see": "Stroll Johannesburg's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Johannesburg — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Johannesburg's transit apps for smoother moves."
+  },
+  "South Africa:Durban": {
+    "see": "Stroll Durban's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Durban — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Durban's transit apps for smoother moves."
+  },
+  "Morocco:Marrakesh": {
+    "see": "Stroll Marrakesh's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Marrakesh — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Marrakesh's transit apps for smoother moves."
+  },
+  "Morocco:Fes": {
+    "see": "Stroll Fes's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Fes — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Fes's transit apps for smoother moves."
+  },
+  "Morocco:Chefchaouen": {
+    "see": "Stroll Chefchaouen's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Chefchaouen — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Chefchaouen's transit apps for smoother moves."
+  },
+  "Egypt:Cairo": {
+    "see": "Stroll Cairo's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Cairo — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Cairo's transit apps for smoother moves."
+  },
+  "Egypt:Giza": {
+    "see": "Stroll Giza's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Giza — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Giza's transit apps for smoother moves."
+  },
+  "Egypt:Luxor": {
+    "see": "Stroll Luxor's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Luxor — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Luxor's transit apps for smoother moves."
+  },
+  "Kenya:Nairobi": {
+    "see": "Stroll Nairobi's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Nairobi — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Nairobi's transit apps for smoother moves."
+  },
+  "Kenya:Mombasa": {
+    "see": "Stroll Mombasa's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Mombasa — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Mombasa's transit apps for smoother moves."
+  },
+  "Kenya:Naivasha": {
+    "see": "Stroll Naivasha's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Naivasha — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Naivasha's transit apps for smoother moves."
+  },
+  "Tanzania:Zanzibar": {
+    "see": "Stroll Zanzibar's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Zanzibar — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Zanzibar's transit apps for smoother moves."
+  },
+  "Tanzania:Arusha": {
+    "see": "Stroll Arusha's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Arusha — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Arusha's transit apps for smoother moves."
+  },
+  "Tanzania:Dar es Salaam": {
+    "see": "Stroll Dar es Salaam's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Dar es Salaam — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Dar es Salaam's transit apps for smoother moves."
+  },
+  "Australia:Sydney": {
+    "see": "Stroll Sydney's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Sydney — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Sydney's transit apps for smoother moves."
+  },
+  "Australia:Melbourne": {
+    "see": "Stroll Melbourne's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Melbourne — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Melbourne's transit apps for smoother moves."
+  },
+  "Australia:Gold Coast": {
+    "see": "Stroll Gold Coast's landmarks and old town vibes; hit a photo spot near the city skyline.",
+    "eat": "Try local favorites in Gold Coast — street foods and signature dishes popular on social feeds.",
+    "do": "Mix a museum or market with a short walking route; add a sunset viewpoint for golden-hour shots.",
+    "tip": "Peak months draw crowds; book ahead and use Gold Coast's transit apps for smoother moves."
   }
 }
