@@ -1,0 +1,409 @@
+{
+  "_meta": {
+    "version": "v6-sample",
+    "notes": "Structure-compatible with v5; safe to merge with inline>remote>guides>patch order."
+  },
+  "Asia": {
+    "_ko": "아시아",
+    "Japan": {
+      "_ko": "일본",
+      "Tokyo": {
+        "ko": "도쿄",
+        "geo": {
+          "lat": 35.6762,
+          "lng": 139.6503
+        },
+        "tags": [
+          "쇼핑",
+          "미식",
+          "야경",
+          "문화"
+        ],
+        "themeWeights": {
+          "shopping": 0.95,
+          "food": 0.95,
+          "night": 0.9,
+          "museum": 0.7,
+          "nature": 0.4
+        },
+        "basePopularity": 0.95,
+        "costIndex": {
+          "hotel": 1.15,
+          "food": 1.1,
+          "transport": 1.0
+        },
+        "priceBandsUSD": {
+          "low": [
+            60,
+            120
+          ],
+          "mid": [
+            120,
+            220
+          ],
+          "high": [
+            220,
+            400
+          ],
+          "lux": [
+            400,
+            900
+          ]
+        },
+        "hotel_median_usd": 180,
+        "tier": "high",
+        "monthMultipliers": {
+          "1": 0.9,
+          "2": 0.9,
+          "3": 0.95,
+          "4": 1.05,
+          "5": 1.0,
+          "6": 0.95,
+          "7": 0.95,
+          "8": 1.05,
+          "9": 1.0,
+          "10": 1.1,
+          "11": 0.95,
+          "12": 1.1
+        },
+        "bestMonths": [
+          3,
+          4,
+          10,
+          11
+        ],
+        "avoidMonths": [
+          8
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 7
+        }
+      },
+      "Osaka": {
+        "ko": "오사카",
+        "geo": {
+          "lat": 34.6937,
+          "lng": 135.5023
+        },
+        "tags": [
+          "미식",
+          "가족",
+          "쇼핑",
+          "야경"
+        ],
+        "themeWeights": {
+          "food": 0.95,
+          "family": 0.85,
+          "shopping": 0.85,
+          "night": 0.7
+        },
+        "basePopularity": 0.9,
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 0.9
+        },
+        "priceBandsUSD": {
+          "low": [
+            50,
+            100
+          ],
+          "mid": [
+            100,
+            180
+          ],
+          "high": [
+            180,
+            320
+          ],
+          "lux": [
+            320,
+            700
+          ]
+        },
+        "monthMultipliers": {
+          "3": 1.05,
+          "4": 1.1,
+          "5": 1.0,
+          "10": 1.05,
+          "11": 1.05
+        },
+        "bestMonths": [
+          3,
+          4,
+          10,
+          11
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        }
+      }
+    },
+    "Thailand": {
+      "_ko": "태국",
+      "Bangkok": {
+        "ko": "방콕",
+        "geo": {
+          "lat": 13.7563,
+          "lng": 100.5018
+        },
+        "tags": [
+          "미식",
+          "야시장",
+          "야경",
+          "마사지",
+          "사원"
+        ],
+        "themeWeights": {
+          "food": 0.9,
+          "night": 0.8,
+          "market": 0.85,
+          "relax": 0.8,
+          "temple": 0.8,
+          "shopping": 0.7
+        },
+        "basePopularity": 0.9,
+        "costIndex": {
+          "hotel": 0.6,
+          "food": 0.5,
+          "transport": 0.5
+        },
+        "priceBandsUSD": {
+          "low": [
+            25,
+            60
+          ],
+          "mid": [
+            60,
+            120
+          ],
+          "high": [
+            120,
+            220
+          ],
+          "lux": [
+            220,
+            500
+          ]
+        },
+        "hotel_median_usd": 75,
+        "monthMultipliers": {
+          "1": 0.95,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 0.9,
+          "5": 0.85,
+          "6": 0.8,
+          "7": 0.8,
+          "8": 0.85,
+          "9": 0.85,
+          "10": 0.95,
+          "11": 1.05,
+          "12": 1.1
+        },
+        "bestMonths": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "avoidMonths": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 7
+        }
+      }
+    }
+  },
+  "Europe": {
+    "_ko": "유럽",
+    "France": {
+      "_ko": "프랑스",
+      "Paris": {
+        "ko": "파리",
+        "geo": {
+          "lat": 48.8566,
+          "lng": 2.3522
+        },
+        "tags": [
+          "미술관",
+          "카페",
+          "야경",
+          "역사"
+        ],
+        "themeWeights": {
+          "museum": 0.95,
+          "cafe": 0.85,
+          "night": 0.8,
+          "landmark": 0.95
+        },
+        "basePopularity": 0.98,
+        "costIndex": {
+          "hotel": 1.35,
+          "food": 1.2,
+          "transport": 1.0
+        },
+        "priceBandsUSD": {
+          "low": [
+            90,
+            160
+          ],
+          "mid": [
+            160,
+            260
+          ],
+          "high": [
+            260,
+            450
+          ],
+          "lux": [
+            450,
+            1000
+          ]
+        },
+        "hotel_median_usd": 220,
+        "monthMultipliers": {
+          "4": 1.1,
+          "5": 1.1,
+          "6": 1.1,
+          "7": 1.05,
+          "9": 1.1,
+          "10": 1.05
+        },
+        "bestMonths": [
+          4,
+          5,
+          6,
+          9,
+          10
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        }
+      }
+    },
+    "Italy": {
+      "_ko": "이탈리아",
+      "Rome": {
+        "ko": "로마",
+        "geo": {
+          "lat": 41.9028,
+          "lng": 12.4964
+        },
+        "tags": [
+          "역사",
+          "미식",
+          "유적",
+          "야경"
+        ],
+        "themeWeights": {
+          "history": 0.95,
+          "food": 0.85,
+          "landmark": 0.9
+        },
+        "basePopularity": 0.92,
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 0.9
+        },
+        "priceBandsUSD": {
+          "low": [
+            70,
+            120
+          ],
+          "mid": [
+            120,
+            200
+          ],
+          "high": [
+            200,
+            350
+          ],
+          "lux": [
+            350,
+            800
+          ]
+        },
+        "bestMonths": [
+          4,
+          5,
+          10
+        ],
+        "monthMultipliers": {
+          "4": 1.1,
+          "5": 1.1,
+          "10": 1.05
+        },
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        }
+      }
+    }
+  },
+  "North America": {
+    "_ko": "북미",
+    "United States": {
+      "_ko": "미국",
+      "New York": {
+        "ko": "뉴욕",
+        "geo": {
+          "lat": 40.7128,
+          "lng": -74.006
+        },
+        "tags": [
+          "뮤지엄",
+          "쇼핑",
+          "브로드웨이",
+          "야경"
+        ],
+        "themeWeights": {
+          "museum": 0.9,
+          "shopping": 0.9,
+          "night": 0.85,
+          "show": 0.9
+        },
+        "basePopularity": 0.98,
+        "costIndex": {
+          "hotel": 1.6,
+          "food": 1.3,
+          "transport": 1.1
+        },
+        "priceBandsUSD": {
+          "low": [
+            130,
+            200
+          ],
+          "mid": [
+            200,
+            320
+          ],
+          "high": [
+            320,
+            520
+          ],
+          "lux": [
+            520,
+            1200
+          ]
+        },
+        "hotel_median_usd": 300,
+        "durationHint": {
+          "minNights": 4,
+          "maxNights": 7
+        }
+      }
+    }
+  }
+}
