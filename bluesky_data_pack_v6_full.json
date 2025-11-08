@@ -1,408 +1,4541 @@
 {
-  "_meta": {
-    "version": "v6-sample",
-    "notes": "Structure-compatible with v5; safe to merge with inline>remote>guides>patch order."
-  },
   "Asia": {
-    "_ko": "아시아",
     "Japan": {
-      "_ko": "일본",
       "Tokyo": {
         "ko": "도쿄",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
         "geo": {
           "lat": 35.6762,
           "lng": 139.6503
         },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "South Korea": {
+      "Seoul": {
+        "ko": "서울",
         "tags": [
-          "쇼핑",
+          "도심",
           "미식",
-          "야경",
-          "문화"
-        ],
-        "themeWeights": {
-          "shopping": 0.95,
-          "food": 0.95,
-          "night": 0.9,
-          "museum": 0.7,
-          "nature": 0.4
-        },
-        "basePopularity": 0.95,
-        "costIndex": {
-          "hotel": 1.15,
-          "food": 1.1,
-          "transport": 1.0
-        },
-        "priceBandsUSD": {
-          "low": [
-            60,
-            120
-          ],
-          "mid": [
-            120,
-            220
-          ],
-          "high": [
-            220,
-            400
-          ],
-          "lux": [
-            400,
-            900
-          ]
-        },
-        "hotel_median_usd": 180,
-        "tier": "high",
-        "monthMultipliers": {
-          "1": 0.9,
-          "2": 0.9,
-          "3": 0.95,
-          "4": 1.05,
-          "5": 1.0,
-          "6": 0.95,
-          "7": 0.95,
-          "8": 1.05,
-          "9": 1.0,
-          "10": 1.1,
-          "11": 0.95,
-          "12": 1.1
-        },
-        "bestMonths": [
-          3,
-          4,
-          10,
-          11
-        ],
-        "avoidMonths": [
-          8
-        ],
-        "durationHint": {
-          "minNights": 3,
-          "maxNights": 7
-        }
-      },
-      "Osaka": {
-        "ko": "오사카",
-        "geo": {
-          "lat": 34.6937,
-          "lng": 135.5023
-        },
-        "tags": [
-          "미식",
-          "가족",
-          "쇼핑",
+          "문화",
           "야경"
         ],
         "themeWeights": {
-          "food": 0.95,
-          "family": 0.85,
-          "shopping": 0.85,
-          "night": 0.7
-        },
-        "basePopularity": 0.9,
-        "costIndex": {
-          "hotel": 1.0,
-          "food": 1.0,
-          "transport": 0.9
-        },
-        "priceBandsUSD": {
-          "low": [
-            50,
-            100
-          ],
-          "mid": [
-            100,
-            180
-          ],
-          "high": [
-            180,
-            320
-          ],
-          "lux": [
-            320,
-            700
-          ]
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
         },
         "monthMultipliers": {
-          "3": 1.05,
-          "4": 1.1,
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
           "5": 1.0,
-          "10": 1.05,
-          "11": 1.05
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
         },
         "bestMonths": [
-          3,
-          4,
-          10,
-          11
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
         ],
         "durationHint": {
           "minNights": 3,
           "maxNights": 6
-        }
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 37.5665,
+          "lng": 126.978
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "China": {
+      "Shanghai": {
+        "ko": "상하이",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 31.2304,
+          "lng": 121.4737
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Taiwan": {
+      "Taipei": {
+        "ko": "타이베이",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 25.033,
+          "lng": 121.5654
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Hong Kong": {
+      "Hong Kong": {
+        "ko": "홍콩",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 22.3193,
+          "lng": 114.1694
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Singapore": {
+      "Singapore": {
+        "ko": "싱가포르",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.0
+        },
+        "bestMonths": [
+          5,
+          9
+        ],
+        "avoidMonths": [],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 1.3521,
+          "lng": 103.8198
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Malaysia": {
+      "Kuala Lumpur": {
+        "ko": "쿠알라룸푸르",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.0
+        },
+        "bestMonths": [
+          5,
+          9
+        ],
+        "avoidMonths": [],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 3.139,
+          "lng": 101.6869
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
       }
     },
     "Thailand": {
-      "_ko": "태국",
       "Bangkok": {
         "ko": "방콕",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
         "geo": {
           "lat": 13.7563,
           "lng": 100.5018
         },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Vietnam": {
+      "Hanoi": {
+        "ko": "하노이",
         "tags": [
+          "도심",
           "미식",
-          "야시장",
-          "야경",
-          "마사지",
-          "사원"
+          "문화",
+          "야경"
         ],
         "themeWeights": {
-          "food": 0.9,
-          "night": 0.8,
-          "market": 0.85,
-          "relax": 0.8,
-          "temple": 0.8,
-          "shopping": 0.7
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
         },
-        "basePopularity": 0.9,
-        "costIndex": {
-          "hotel": 0.6,
-          "food": 0.5,
-          "transport": 0.5
-        },
-        "priceBandsUSD": {
-          "low": [
-            25,
-            60
-          ],
-          "mid": [
-            60,
-            120
-          ],
-          "high": [
-            120,
-            220
-          ],
-          "lux": [
-            220,
-            500
-          ]
-        },
-        "hotel_median_usd": 75,
         "monthMultipliers": {
-          "1": 0.95,
-          "2": 1.0,
+          "1": 1.2,
+          "2": 1.2,
           "3": 1.0,
-          "4": 0.9,
-          "5": 0.85,
-          "6": 0.8,
-          "7": 0.8,
-          "8": 0.85,
-          "9": 0.85,
-          "10": 0.95,
-          "11": 1.05,
-          "12": 1.1
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
         },
         "bestMonths": [
-          11,
-          12,
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
           1,
           2
         ],
-        "avoidMonths": [
-          4,
-          5,
-          6,
-          7,
-          8,
-          9
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
         ],
         "durationHint": {
           "minNights": 3,
-          "maxNights": 7
-        }
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 21.0278,
+          "lng": 105.8342
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Indonesia": {
+      "Bali": {
+        "ko": "발리",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.0
+        },
+        "bestMonths": [
+          5,
+          9
+        ],
+        "avoidMonths": [],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -8.4095,
+          "lng": 115.1889
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Philippines": {
+      "Manila": {
+        "ko": "마닐라",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 14.5995,
+          "lng": 120.9842
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "India": {
+      "Delhi": {
+        "ko": "델리",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 28.6139,
+          "lng": 77.209
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "UAE": {
+      "Dubai": {
+        "ko": "두바이",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 25.2048,
+          "lng": 55.2708
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Turkey": {
+      "Istanbul": {
+        "ko": "이스탄불",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 41.0082,
+          "lng": 28.9784
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Qatar": {
+      "Doha": {
+        "ko": "도하",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 25.2854,
+          "lng": 51.531
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Saudi Arabia": {
+      "Riyadh": {
+        "ko": "리야드",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 24.7136,
+          "lng": 46.6753
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Israel": {
+      "Tel Aviv": {
+        "ko": "텔아비브",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 32.0853,
+          "lng": 34.7818
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
       }
     }
   },
   "Europe": {
-    "_ko": "유럽",
+    "United Kingdom": {
+      "London": {
+        "ko": "런던",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 51.5072,
+          "lng": -0.1276
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
     "France": {
-      "_ko": "프랑스",
       "Paris": {
         "ko": "파리",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
         "geo": {
           "lat": 48.8566,
           "lng": 2.3522
         },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Germany": {
+      "Berlin": {
+        "ko": "베를린",
         "tags": [
-          "미술관",
-          "카페",
-          "야경",
-          "역사"
+          "도심",
+          "미식",
+          "문화",
+          "야경"
         ],
         "themeWeights": {
-          "museum": 0.95,
-          "cafe": 0.85,
-          "night": 0.8,
-          "landmark": 0.95
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
         },
-        "basePopularity": 0.98,
-        "costIndex": {
-          "hotel": 1.35,
-          "food": 1.2,
-          "transport": 1.0
-        },
-        "priceBandsUSD": {
-          "low": [
-            90,
-            160
-          ],
-          "mid": [
-            160,
-            260
-          ],
-          "high": [
-            260,
-            450
-          ],
-          "lux": [
-            450,
-            1000
-          ]
-        },
-        "hotel_median_usd": 220,
         "monthMultipliers": {
-          "4": 1.1,
-          "5": 1.1,
-          "6": 1.1,
-          "7": 1.05,
-          "9": 1.1,
-          "10": 1.05
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
         },
         "bestMonths": [
-          4,
-          5,
           6,
-          9,
-          10
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
         ],
         "durationHint": {
           "minNights": 3,
           "maxNights": 6
-        }
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 52.52,
+          "lng": 13.405
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
       }
     },
     "Italy": {
-      "_ko": "이탈리아",
       "Rome": {
         "ko": "로마",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
         "geo": {
           "lat": 41.9028,
           "lng": 12.4964
         },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Spain": {
+      "Barcelona": {
+        "ko": "바르셀로나",
         "tags": [
-          "역사",
+          "도심",
           "미식",
-          "유적",
+          "문화",
           "야경"
         ],
         "themeWeights": {
-          "history": 0.95,
-          "food": 0.85,
-          "landmark": 0.9
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
         },
-        "basePopularity": 0.92,
-        "costIndex": {
-          "hotel": 1.0,
-          "food": 1.0,
-          "transport": 0.9
-        },
-        "priceBandsUSD": {
-          "low": [
-            70,
-            120
-          ],
-          "mid": [
-            120,
-            200
-          ],
-          "high": [
-            200,
-            350
-          ],
-          "lux": [
-            350,
-            800
-          ]
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
         },
         "bestMonths": [
-          4,
-          5,
-          10
+          6,
+          7,
+          8
         ],
-        "monthMultipliers": {
-          "4": 1.1,
-          "5": 1.1,
-          "10": 1.05
-        },
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
         "durationHint": {
           "minNights": 3,
           "maxNights": 6
-        }
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 41.3874,
+          "lng": 2.1686
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Netherlands": {
+      "Amsterdam": {
+        "ko": "암스테르담",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 52.3676,
+          "lng": 4.9041
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Switzerland": {
+      "Zurich": {
+        "ko": "취리히",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 47.3769,
+          "lng": 8.5417
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Austria": {
+      "Vienna": {
+        "ko": "비엔나",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 48.2082,
+          "lng": 16.3738
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Greece": {
+      "Athens": {
+        "ko": "아테네",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 37.9838,
+          "lng": 23.7275
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Portugal": {
+      "Lisbon": {
+        "ko": "리스본",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 38.7223,
+          "lng": -9.1393
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Czechia": {
+      "Prague": {
+        "ko": "프라하",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 50.0755,
+          "lng": 14.4378
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Hungary": {
+      "Budapest": {
+        "ko": "부다페스트",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 47.4979,
+          "lng": 19.0402
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Poland": {
+      "Krakow": {
+        "ko": "크라쿠프",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 50.0647,
+          "lng": 19.945
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Denmark": {
+      "Copenhagen": {
+        "ko": "코펜하겐",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 55.6761,
+          "lng": 12.5683
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Sweden": {
+      "Stockholm": {
+        "ko": "스톡홀름",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 59.3293,
+          "lng": 18.0686
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Norway": {
+      "Oslo": {
+        "ko": "오슬로",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 59.9139,
+          "lng": 10.7522
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Finland": {
+      "Helsinki": {
+        "ko": "헬싱키",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 60.1699,
+          "lng": 24.9384
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
       }
     }
   },
   "North America": {
-    "_ko": "북미",
     "United States": {
-      "_ko": "미국",
       "New York": {
         "ko": "뉴욕",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
         "geo": {
           "lat": 40.7128,
           "lng": -74.006
         },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Canada": {
+      "Vancouver": {
+        "ko": "밴쿠버",
         "tags": [
-          "뮤지엄",
-          "쇼핑",
-          "브로드웨이",
+          "도심",
+          "미식",
+          "문화",
           "야경"
         ],
         "themeWeights": {
-          "museum": 0.9,
-          "shopping": 0.9,
-          "night": 0.85,
-          "show": 0.9
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
         },
-        "basePopularity": 0.98,
-        "costIndex": {
-          "hotel": 1.6,
-          "food": 1.3,
-          "transport": 1.1
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
         },
-        "priceBandsUSD": {
-          "low": [
-            130,
-            200
-          ],
-          "mid": [
-            200,
-            320
-          ],
-          "high": [
-            320,
-            520
-          ],
-          "lux": [
-            520,
-            1200
-          ]
-        },
-        "hotel_median_usd": 300,
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
         "durationHint": {
-          "minNights": 4,
-          "maxNights": 7
-        }
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 49.2827,
+          "lng": -123.1207
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Mexico": {
+      "Cancun": {
+        "ko": "칸쿤",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 21.1619,
+          "lng": -86.8515
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    }
+  },
+  "Central America": {
+    "Costa Rica": {
+      "San Jose": {
+        "ko": "산호세",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.0
+        },
+        "bestMonths": [
+          5,
+          9
+        ],
+        "avoidMonths": [],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 9.9281,
+          "lng": -84.0907
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Panama": {
+      "Panama City": {
+        "ko": "파나마시티",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.0
+        },
+        "bestMonths": [
+          5,
+          9
+        ],
+        "avoidMonths": [],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 8.9824,
+          "lng": -79.5199
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    }
+  },
+  "South America": {
+    "Brazil": {
+      "Rio de Janeiro": {
+        "ko": "리우데자네이루",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 0.75,
+          "2": 0.75,
+          "3": 0.75,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.2,
+          "7": 1.2,
+          "8": 1.2,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 0.75
+        },
+        "bestMonths": [
+          1,
+          2,
+          3
+        ],
+        "avoidMonths": [
+          6,
+          7
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -22.9068,
+          "lng": -43.1729
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Argentina": {
+      "Buenos Aires": {
+        "ko": "부에노스아이레스",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 0.75,
+          "2": 0.75,
+          "3": 0.75,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.2,
+          "7": 1.2,
+          "8": 1.2,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 0.75
+        },
+        "bestMonths": [
+          1,
+          2,
+          3
+        ],
+        "avoidMonths": [
+          6,
+          7
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -34.6037,
+          "lng": -58.3816
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Chile": {
+      "Santiago": {
+        "ko": "산티아고",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 0.75,
+          "2": 0.75,
+          "3": 0.75,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.2,
+          "7": 1.2,
+          "8": 1.2,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 0.75
+        },
+        "bestMonths": [
+          1,
+          2,
+          3
+        ],
+        "avoidMonths": [
+          6,
+          7
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -33.4489,
+          "lng": -70.6693
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Peru": {
+      "Cusco": {
+        "ko": "쿠스코",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 0.75,
+          "2": 0.75,
+          "3": 0.75,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.2,
+          "7": 1.2,
+          "8": 1.2,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 0.75
+        },
+        "bestMonths": [
+          1,
+          2,
+          3
+        ],
+        "avoidMonths": [
+          6,
+          7
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -13.5319,
+          "lng": -71.9675
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Colombia": {
+      "Cartagena": {
+        "ko": "카르타헤나",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 10.391,
+          "lng": -75.4794
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    }
+  },
+  "Oceania": {
+    "Australia": {
+      "Sydney": {
+        "ko": "시드니",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 0.75,
+          "2": 0.75,
+          "3": 0.75,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.2,
+          "7": 1.2,
+          "8": 1.2,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 0.75
+        },
+        "bestMonths": [
+          1,
+          2,
+          3
+        ],
+        "avoidMonths": [
+          6,
+          7
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -33.8688,
+          "lng": 151.2093
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "New Zealand": {
+      "Auckland": {
+        "ko": "오클랜드",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 0.75,
+          "2": 0.75,
+          "3": 0.75,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.2,
+          "7": 1.2,
+          "8": 1.2,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 0.75
+        },
+        "bestMonths": [
+          1,
+          2,
+          3
+        ],
+        "avoidMonths": [
+          6,
+          7
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -36.8509,
+          "lng": 174.7645
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    }
+  },
+  "Middle East & Africa": {
+    "Egypt": {
+      "Cairo": {
+        "ko": "카이로",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 30.0444,
+          "lng": 31.2357
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Morocco": {
+      "Marrakesh": {
+        "ko": "마라케시",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 31.6295,
+          "lng": -7.9811
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "South Africa": {
+      "Cape Town": {
+        "ko": "케이프타운",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 0.75,
+          "2": 0.75,
+          "3": 0.75,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.2,
+          "7": 1.2,
+          "8": 1.2,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 0.75
+        },
+        "bestMonths": [
+          1,
+          2,
+          3
+        ],
+        "avoidMonths": [
+          6,
+          7
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -33.9249,
+          "lng": 18.4241
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Kenya": {
+      "Nairobi": {
+        "ko": "나이로비",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.0
+        },
+        "bestMonths": [
+          5,
+          9
+        ],
+        "avoidMonths": [],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -1.2864,
+          "lng": 36.8172
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Tanzania": {
+      "Zanzibar": {
+        "ko": "잔지바르",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.0
+        },
+        "bestMonths": [
+          5,
+          9
+        ],
+        "avoidMonths": [],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": -6.1659,
+          "lng": 39.2026
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Ethiopia": {
+      "Addis Ababa": {
+        "ko": "아디스아바바",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 1.0,
+          "8": 1.0,
+          "9": 1.0,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.0
+        },
+        "bestMonths": [
+          5,
+          9
+        ],
+        "avoidMonths": [],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 8.9806,
+          "lng": 38.7578
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
+      }
+    },
+    "Jordan": {
+      "Amman": {
+        "ko": "암만",
+        "tags": [
+          "도심",
+          "미식",
+          "문화",
+          "야경"
+        ],
+        "themeWeights": {
+          "도심": 0.9,
+          "미식": 0.8,
+          "문화": 0.85,
+          "야경": 0.7
+        },
+        "monthMultipliers": {
+          "1": 1.2,
+          "2": 1.2,
+          "3": 1.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 0.75,
+          "7": 0.75,
+          "8": 0.75,
+          "9": 0.75,
+          "10": 1.0,
+          "11": 1.0,
+          "12": 1.2
+        },
+        "bestMonths": [
+          6,
+          7,
+          8
+        ],
+        "avoidMonths": [
+          1,
+          2
+        ],
+        "seasons": [
+          "spring",
+          "summer",
+          "fall",
+          "winter"
+        ],
+        "durationHint": {
+          "minNights": 3,
+          "maxNights": 6
+        },
+        "costIndex": {
+          "hotel": 1.0,
+          "food": 1.0,
+          "transport": 1.0
+        },
+        "basePopularity": 0.8,
+        "geo": {
+          "lat": 31.9539,
+          "lng": 35.9106
+        },
+        "tier": "mid",
+        "lodgingZones": [
+          {
+            "name": "시내 중심가",
+            "level": "$$$",
+            "note": "핵심 볼거리 근접, 도보 이동"
+          },
+          {
+            "name": "강변/해변",
+            "level": "$$",
+            "note": "뷰 우수, 이동은 대중교통/차량"
+          },
+          {
+            "name": "공항근처",
+            "level": "$",
+            "note": "가격 메리트, 단기 체류 적합"
+          }
+        ],
+        "viewPoints": [
+          "Observation Deck",
+          "Panorama Point"
+        ],
+        "photoSpots": [
+          "사진 명소",
+          "포토 스팟"
+        ]
       }
     }
   }
