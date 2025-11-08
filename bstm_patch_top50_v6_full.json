@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "version": "v6_full",
+    "type": "Top50 patch"
+  },
+  "Tokyo": {
+    "override": {
+      "hotel_median_usd": 160,
+      "flightBandKR": "mid"
+    }
+  },
+  "Seoul": {
+    "override": {
+      "hotel_median_usd": 115,
+      "flightBandKR": "short"
+    }
+  }
+}

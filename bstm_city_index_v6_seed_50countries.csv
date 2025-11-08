@@ -1,54 +1,5 @@
-﻿continent,country_en,city_en,city_ko,lat,lng
-Asia,Japan,Tokyo,도쿄,35.6762,139.6503
-Asia,South Korea,Seoul,서울,37.5665,126.978
-Asia,China,Shanghai,상하이,31.2304,121.4737
-Asia,Taiwan,Taipei,타이베이,25.033,121.5654
-Asia,Hong Kong,Hong Kong,홍콩,22.3193,114.1694
-Asia,Singapore,Singapore,싱가포르,1.3521,103.8198
-Asia,Malaysia,Kuala Lumpur,쿠알라룸푸르,3.139,101.6869
-Asia,Thailand,Bangkok,방콕,13.7563,100.5018
-Asia,Vietnam,Hanoi,하노이,21.0278,105.8342
-Asia,Indonesia,Bali,발리,-8.4095,115.1889
-Asia,Philippines,Manila,마닐라,14.5995,120.9842
-Asia,India,Delhi,델리,28.6139,77.209
-Asia,UAE,Dubai,두바이,25.2048,55.2708
-Asia,Turkey,Istanbul,이스탄불,41.0082,28.9784
-Asia,Qatar,Doha,도하,25.2854,51.531
-Asia,Saudi Arabia,Riyadh,리야드,24.7136,46.6753
-Asia,Israel,Tel Aviv,텔아비브,32.0853,34.7818
-Europe,United Kingdom,London,런던,51.5072,-0.1276
-Europe,France,Paris,파리,48.8566,2.3522
-Europe,Germany,Berlin,베를린,52.52,13.405
-Europe,Italy,Rome,로마,41.9028,12.4964
-Europe,Spain,Barcelona,바르셀로나,41.3874,2.1686
-Europe,Netherlands,Amsterdam,암스테르담,52.3676,4.9041
-Europe,Switzerland,Zurich,취리히,47.3769,8.5417
-Europe,Austria,Vienna,비엔나,48.2082,16.3738
-Europe,Greece,Athens,아테네,37.9838,23.7275
-Europe,Portugal,Lisbon,리스본,38.7223,-9.1393
-Europe,Czechia,Prague,프라하,50.0755,14.4378
-Europe,Hungary,Budapest,부다페스트,47.4979,19.0402
-Europe,Poland,Krakow,크라쿠프,50.0647,19.945
-Europe,Denmark,Copenhagen,코펜하겐,55.6761,12.5683
-Europe,Sweden,Stockholm,스톡홀름,59.3293,18.0686
-Europe,Norway,Oslo,오슬로,59.9139,10.7522
-Europe,Finland,Helsinki,헬싱키,60.1699,24.9384
-North America,United States,New York,뉴욕,40.7128,-74.006
-North America,Canada,Vancouver,밴쿠버,49.2827,-123.1207
-North America,Mexico,Cancun,칸쿤,21.1619,-86.8515
-Central America,Costa Rica,San Jose,산호세,9.9281,-84.0907
-Central America,Panama,Panama City,파나마시티,8.9824,-79.5199
-South America,Brazil,Rio de Janeiro,리우데자네이루,-22.9068,-43.1729
-South America,Argentina,Buenos Aires,부에노스아이레스,-34.6037,-58.3816
-South America,Chile,Santiago,산티아고,-33.4489,-70.6693
-South America,Peru,Cusco,쿠스코,-13.5319,-71.9675
-South America,Colombia,Cartagena,카르타헤나,10.391,-75.4794
-Oceania,Australia,Sydney,시드니,-33.8688,151.2093
-Oceania,New Zealand,Auckland,오클랜드,-36.8509,174.7645
-Middle East & Africa,Egypt,Cairo,카이로,30.0444,31.2357
-Middle East & Africa,Morocco,Marrakesh,마라케시,31.6295,-7.9811
-Middle East & Africa,South Africa,Cape Town,케이프타운,-33.9249,18.4241
-Middle East & Africa,Kenya,Nairobi,나이로비,-1.2864,36.8172
-Middle East & Africa,Tanzania,Zanzibar,잔지바르,-6.1659,39.2026
-Middle East & Africa,Ethiopia,Addis Ababa,아디스아바바,8.9806,38.7578
-Middle East & Africa,Jordan,Amman,암만,31.9539,35.9106
+﻿Continent,Country,City,LocalName,Lat,Lng,Band,HotelUSD
+Asia,Japan,Tokyo,도쿄,35.6895,139.6917,mid,150
+Asia,Japan,Osaka,오사카,34.6937,135.5023,mid,120
+Asia,South Korea,Seoul,서울,37.5665,126.978,short,110
+Asia,South Korea,Busan,부산,35.1796,129.0756,short,100
