@@ -1,7 +1,0 @@
-continent,country,city,continent_ko,country_ko,city_ko,lat,lng,tier,base_popularity
-Asia,Japan,Tokyo,아시아,일본,도쿄,35.6762,139.6503,high,0.95
-Asia,Japan,Osaka,아시아,일본,오사카,34.6937,135.5023,mid,0.9
-Asia,Thailand,Bangkok,아시아,태국,방콕,13.7563,100.5018,low,0.9
-Europe,France,Paris,유럽,프랑스,파리,48.8566,2.3522,high,0.98
-Europe,Italy,Rome,유럽,이탈리아,로마,41.9028,12.4964,mid,0.92
-North America,United States,New York,북미,미국,뉴욕,40.7128,-74.006,lux,0.98
